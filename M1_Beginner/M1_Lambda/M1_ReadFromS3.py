@@ -12,3 +12,5 @@ def lambda_handler(event, context):
     for obj in bucket.objects.all():
         key = obj.key
         print(key)
+
+
